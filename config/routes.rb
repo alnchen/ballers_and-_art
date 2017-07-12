@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resource :users
+  resources :users
   # get 'users/:id' => 'users#show'
   # post 'users/' => 'users#create'
+  # get 'users/:name' => 'users#show'
 end
